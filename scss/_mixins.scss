@@ -1,0 +1,23 @@
+
+@mixin buttons ($padding, $radius, $bgColor, $color, $fontSize,
+ $border, $fontWeight, $hoverBgColor, $hoverColor, $hoverBorder) {
+    padding: $padding;
+    border-radius: $radius;
+    background-color: $bgColor;
+    color: $color;
+    font-size: $fontSize;
+    border: $border;
+    font-weight: $fontWeight;
+    transition: 1s;
+    &:hover{
+        background-color: $hoverBgColor;
+        color: $hoverColor;
+        border: $hoverBorder;
+    }
+}
+@mixin texts ($fontSize, $color, $fontWeight, $lineHeight) {
+    font-size: $fontSize;
+    color: $color;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+}

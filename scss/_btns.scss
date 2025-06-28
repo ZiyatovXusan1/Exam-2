@@ -1,0 +1,116 @@
+@import "mixins";
+@import "header";
+@import "main";
+.header_btns {
+  @extend .flex;
+  .first_btn {
+    border: none;
+    background-color: white;
+    font-family: "Rubik";
+    font-size: 16px;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+      color: red;
+      font-weight: 500;
+    }
+  }
+  .second_btn {
+    @include buttons(
+      10px 30px,
+      20px,
+      white,
+      #f53855,
+      16px,
+      2px solid #f53855,
+      500,
+      #f53855,
+      white,
+      none
+    );
+  }
+}
+.left_side {
+  .button {
+    @include buttons(
+      20px 60px,
+      10px,
+      #f53838,
+      white,
+      16px,
+      none,
+      700,
+      white,
+      #f53838,
+      2px solid #f53838
+    );
+    font-family: "Rubik";
+    box-shadow: 1px 20px 54px -5px #f53838;
+  }
+}
+.elements {
+  button {
+    @include buttons(
+      10px 50px,
+      50px,
+      white,
+      #f53838,
+      16px,
+      2px solid #f53838,
+      700,
+      none,
+      none,
+      none
+    );
+    margin-bottom: 50px;
+    transition: 0.3s;
+    &:hover {
+      background-color: #f53838;
+      border: none;
+      color: white;
+      transform: scale(1.2);
+    }
+  }
+}
+.next_btn {
+  .btn_first {
+    @include buttons(
+      20px 20px,
+      50%,
+      white,
+      #f53838,
+      20px,
+      2px solid #f53838,
+      400,
+      #f53838,
+      white,
+      2px solid white
+    );
+
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.next_btn {
+  .btn_second {
+    @include buttons(
+      20px 20px,
+      50%,
+      #f53838,
+      white,
+      20px,
+      2px solid #f53838,
+      400,
+      white,
+      #f53838,
+      2px solid #f53838
+    );
+
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

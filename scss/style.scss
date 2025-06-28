@@ -1,0 +1,16 @@
+
+@import "mixins";
+@import "header";
+@import "btns";
+@import "main";
+@import "information";
+@import "opportunities";
+@import "grid-side";
+@import "xusan";
+@import "section8";
+@import "position";
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
