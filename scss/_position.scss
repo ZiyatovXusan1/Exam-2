@@ -20,7 +20,7 @@
         justify-content: space-between;
         padding: 0px 70px;
         h1 {
-            @include texts(35px, #0B132A, 500, 45px);
+            @include texts(35px, #0B132A, 500, 20px);
         }
         p {
             @include texts (17px, #4F5665, 400, 30px);

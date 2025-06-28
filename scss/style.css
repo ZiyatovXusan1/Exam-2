@@ -163,7 +163,7 @@
   align-items: center;
   justify-content: space-between;
   font-family: "Rubik";
-  gap: 50px;
+  gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -172,7 +172,7 @@
   color: #0B132A;
   font-weight: 500;
   line-height: 40px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 .sidebar h1 span {
   font-size: larger;
@@ -350,7 +350,7 @@
   align-items: center;
   justify-content: space-between;
   font-family: "Rubik";
-  gap: 50px;
+  gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -359,7 +359,7 @@
   color: #0B132A;
   font-weight: 500;
   line-height: 40px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 .sidebar h1 span {
   font-size: larger;
@@ -1009,7 +1009,7 @@
   font-size: 35px;
   color: #0B132A;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 20px;
 }
 .position .position_elements p {
   font-size: 17px;
