@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+footer {
+    position: relative;
+    background-color: #F8F8F8;
+    .footer {
+        padding-top: 180px;
+        padding-bottom: 130px;
+        display: flex;
+        justify-content: space-between;
+        .first_side {
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            .footer_images {
+                margin-left: -20px;
+            }
+            .img {
+                width: 150px;    
+                padding-bottom: 20px   
+            }
+            p {
+                @include texts (16px, #4F5665, 500, 30px);
+                padding-bottom: 30px;
+                span {
+                    font-size: x-large;
+                }
+            }
+            .last_vpn {
+                color: #AFB5C0;
+            }
+        }
+        .second_side {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            h1{
+                @include texts (18px, #0B132A, 500, 30px);
+                padding-bottom: 20px;
+            }
+            a {
+                text-decoration: none;
+                @include texts (16px, #4F5665, 400, 30px);
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+.left_footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.right_footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+@media (max-width:755px) {
+    .footer {
+        flex-direction: column;
+        margin: auto;
+        gap: 50px;
+        align-items: center;
+    }
+    footer {
+        padding-top: 150px;
+    }
+    .left_footer {
+        gap: 50px;
+    }
+    .right_footer {
+        align-items: left;
+    }
+}
+@media (max-width:1015px) {
+    .footer {
+        gap: 80px;
+    }
+}
+@media (max-width:514px) {
+    footer {
+        padding-top: 250px;
+    }
+}
+@media (max-width:485px) {
+    footer {
+        padding-top: 250px;
+    }
+}
+@media (max-width:306px) {
+    footer {
+        padding-top: 300px;
+    }
+}
